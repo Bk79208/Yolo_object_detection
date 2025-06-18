@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Masked_face', 'no_Mask']
+
+roboflow:
+  workspace: projects-jrs2z
+  project: masked_no_mask_face
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/projects-jrs2z/masked_no_mask_face/dataset/1
